@@ -251,3 +251,112 @@ p{
     right: 0;
     top: 250px;
 }
+
+@media (max-width: 1670px){
+    .circle{
+        width:537px;
+        height: 537px;
+        position: absolute;
+        right: 0;
+        top: 350px;
+    }
+}
+
+@media (max-width: 1512px){
+    .circle{
+        width:487px;
+        height: 587px;
+        position: absolute;
+        right: 0;
+        top: 250px;
+    }
+}
+
+@media (max-width: 1440px){
+    .circle{
+        width:487px;
+        height: 587px;
+        position: absolute;
+        right: 0;
+        top: 180px;
+    }
+}
+
+@media (max-width: 1410px){
+    .circle{
+        width:0px;
+        height: 0px;
+        position: absolute;
+        right: 0;
+        top: 180px;
+    }
+}
+
+@media (max-width: 1378px){
+    .inner_container1{
+        position: absolute;
+        left: 65%;
+        top: 360px
+    }
+
+    .inner_container3{
+            position: absolute;
+            left: 18%;
+            top: 570px
+    }
+}
+
+@media (max-width: 1050px){
+    .inner_container1{
+        position: absolute;
+        left: 18%;
+        top: 760px
+    }
+    html{
+        overflow-y: auto;
+    }
+
+}
+
+@media (max-width: 635px){
+    .inner_container1{
+        position: absolute;
+        left: 0%;
+        top: 760px
+    }
+
+    .inner_container3{
+            position: absolute;
+            left: 0%;
+            top: 570px
+    }
+
+    .inner_container{
+            position: absolute;
+            left: 0%;
+            top: 100px
+    }
+
+    html{
+        overflow-y: auto;
+    }
+
+}
+
+@media (max-width: 520px){
+
+    .rectangle1{
+        position: absolute;
+        top: 100px;
+        right: 3%;
+    }
+
+    .text_container{
+        width: 500px;
+    }
+
+    html{
+        overflow-y: auto;
+    }
+
+}
